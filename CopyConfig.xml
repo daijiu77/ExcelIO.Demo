@@ -1,0 +1,4 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Copy des="Pealse select a item:">
+	<item des="Copy to NetCore and Net from framework, pealse input C key." val="C">toNetCore.xml</item>
+</Copy>

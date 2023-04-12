@@ -6,6 +6,17 @@
 *.lo
 *.o
 *.obj
+.vs
+
+/ExcelIO.Demo.Framework/bin
+/ExcelIO.Demo.Net/bin
+/ExcelIO.Demo.NetCore/bin
+
+/ExcelIO.Demo.Framework/obj
+/ExcelIO.Demo.Net/obj
+/ExcelIO.Demo.NetCore/obj
+
+/packages
 
 # Precompiled Headers
 *.gch
