@@ -1,0 +1,198 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>ExcelIO.Framework</name>
+    </assembly>
+    <members>
+        <member name="F:ExcelIO.Framework.CellDataType.General">
+            <summary>
+            General
+            </summary>
+        </member>
+        <member name="F:ExcelIO.Framework.CellDataType.Number">
+            <summary>
+            0
+            </summary>
+        </member>
+        <member name="F:ExcelIO.Framework.CellDataType.Decimal2">
+            <summary>
+            0.00
+            </summary>
+        </member>
+        <member name="F:ExcelIO.Framework.CellDataType.Decimal3">
+            <summary>
+            #,##0
+            </summary>
+        </member>
+        <member name="F:ExcelIO.Framework.CellDataType.Decimal4">
+            <summary>
+            #,##0.00
+            </summary>
+        </member>
+        <member name="F:ExcelIO.Framework.CellDataType.Currency1">
+            <summary>
+            $#,##0_);($#,##0)
+            </summary>
+        </member>
+        <member name="F:ExcelIO.Framework.CellDataType.Currency2">
+            <summary>
+            $#,##0_);[Red]($#,##0)
+            </summary>
+        </member>
+        <member name="F:ExcelIO.Framework.CellDataType.Currency3">
+            <summary>
+            $#,##0.00_);($#,##0.00)
+            </summary>
+        </member>
+        <member name="F:ExcelIO.Framework.CellDataType.Currency4">
+            <summary>
+            $#,##0.00_);[Red]($#,##0.00)
+            </summary>
+        </member>
+        <member name="F:ExcelIO.Framework.CellDataType.Percentage1">
+            <summary>
+            0%
+            </summary>
+        </member>
+        <member name="F:ExcelIO.Framework.CellDataType.Percentage2">
+            <summary>
+            0.00%
+            </summary>
+        </member>
+        <member name="F:ExcelIO.Framework.CellDataType.Scientific1">
+            <summary>
+            0.00E+00
+            </summary>
+        </member>
+        <member name="F:ExcelIO.Framework.CellDataType.Fraction1">
+            <summary>
+            # ?/?
+            </summary>
+        </member>
+        <member name="F:ExcelIO.Framework.CellDataType.Fraction2">
+            <summary>
+            # ??/??
+            </summary>
+        </member>
+        <member name="F:ExcelIO.Framework.CellDataType.Date1">
+            <summary>
+            m/d/yyyy
+            </summary>
+        </member>
+        <member name="F:ExcelIO.Framework.CellDataType.Date2">
+            <summary>
+            d-mmm-yy
+            </summary>
+        </member>
+        <member name="F:ExcelIO.Framework.CellDataType.Date3">
+            <summary>
+            d-mmm
+            </summary>
+        </member>
+        <member name="F:ExcelIO.Framework.CellDataType.Date4">
+            <summary>
+            mmm-yy
+            </summary>
+        </member>
+        <member name="F:ExcelIO.Framework.CellDataType.Time1">
+            <summary>
+            h:mm AM/PM
+            </summary>
+        </member>
+        <member name="F:ExcelIO.Framework.CellDataType.Time2">
+            <summary>
+            h:mm:ss AM/PM
+            </summary>
+        </member>
+        <member name="F:ExcelIO.Framework.CellDataType.Time3">
+            <summary>
+            h:mm
+            </summary>
+        </member>
+        <member name="F:ExcelIO.Framework.CellDataType.Time4">
+            <summary>
+            h:mm:ss
+            </summary>
+        </member>
+        <member name="F:ExcelIO.Framework.CellDataType.Time5">
+            <summary>
+            m/d/yyyy h:mm
+            </summary>
+        </member>
+        <member name="F:ExcelIO.Framework.CellDataType.Accounting1">
+            <summary>
+            #,##0_);(#,##0)
+            </summary>
+        </member>
+        <member name="F:ExcelIO.Framework.CellDataType.Accounting2">
+            <summary>
+            #,##0_);[Red](#,##0)
+            </summary>
+        </member>
+        <member name="F:ExcelIO.Framework.CellDataType.Accounting3">
+            <summary>
+            #,##0.00_);(#,##0.00)
+            </summary>
+        </member>
+        <member name="F:ExcelIO.Framework.CellDataType.Accounting4">
+            <summary>
+            #,##0.00_);[Red](#,##0.00)
+            </summary>
+        </member>
+        <member name="F:ExcelIO.Framework.CellDataType.Accounting5">
+            <summary>
+            _(* #,##0_);_(* (#,##0);_(* "-"_);_(@_)
+            </summary>
+        </member>
+        <member name="F:ExcelIO.Framework.CellDataType.Currency5">
+            <summary>
+            _($* #,##0_);_($* (#,##0);_($* "-"_);_(@_)
+            </summary>
+        </member>
+        <member name="F:ExcelIO.Framework.CellDataType.Accounting6">
+            <summary>
+            _(* #,##0.00_);_(* (#,##0.00);_(* "-"??_);_(@_)
+            </summary>
+        </member>
+        <member name="F:ExcelIO.Framework.CellDataType.Currency6">
+            <summary>
+            _($* #,##0.00_);_($* (#,##0.00);_($* "-"??_);_(@_)
+            </summary>
+        </member>
+        <member name="F:ExcelIO.Framework.CellDataType.Time6">
+            <summary>
+            mm:ss
+            </summary>
+        </member>
+        <member name="F:ExcelIO.Framework.CellDataType.Time7">
+            <summary>
+            [h]:mm:ss
+            </summary>
+        </member>
+        <member name="F:ExcelIO.Framework.CellDataType.Time8">
+            <summary>
+            mm:ss.0
+            </summary>
+        </member>
+        <member name="F:ExcelIO.Framework.CellDataType.Scientific2">
+            <summary>
+            ##0.0E+0
+            </summary>
+        </member>
+        <member name="F:ExcelIO.Framework.CellDataType.Text">
+            <summary>
+            @
+            </summary>
+        </member>
+        <member name="P:ExcelIO.Framework.CellProperty.wrapText">
+            <summary>
+            文本自动转行
+            </summary>
+        </member>
+        <member name="P:ExcelIO.Framework.CellProperty.isBold">
+            <summary>
+            是否加粗显示文字
+            </summary>
+        </member>
+    </members>
+</doc>

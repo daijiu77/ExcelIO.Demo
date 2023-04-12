@@ -16,8 +16,6 @@
 /ExcelIO.Demo.Net/obj
 /ExcelIO.Demo.NetCore/obj
 
-/packages
-
 # Precompiled Headers
 *.gch
 *.pch
