@@ -1,0 +1,314 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>ExcelIO.Framework</name>
+    </assembly>
+    <members>
+        <member name="F:ExcelIO.Framework.CellDataType.General">
+            <summary>
+            General
+            </summary>
+        </member>
+        <member name="F:ExcelIO.Framework.CellDataType.Number">
+            <summary>
+            0
+            </summary>
+        </member>
+        <member name="F:ExcelIO.Framework.CellDataType.Decimal2">
+            <summary>
+            0.00
+            </summary>
+        </member>
+        <member name="F:ExcelIO.Framework.CellDataType.Decimal3">
+            <summary>
+            #,##0
+            </summary>
+        </member>
+        <member name="F:ExcelIO.Framework.CellDataType.Decimal4">
+            <summary>
+            #,##0.00
+            </summary>
+        </member>
+        <member name="F:ExcelIO.Framework.CellDataType.Currency1">
+            <summary>
+            $#,##0_);($#,##0)
+            </summary>
+        </member>
+        <member name="F:ExcelIO.Framework.CellDataType.Currency2">
+            <summary>
+            $#,##0_);[Red]($#,##0)
+            </summary>
+        </member>
+        <member name="F:ExcelIO.Framework.CellDataType.Currency3">
+            <summary>
+            $#,##0.00_);($#,##0.00)
+            </summary>
+        </member>
+        <member name="F:ExcelIO.Framework.CellDataType.Currency4">
+            <summary>
+            $#,##0.00_);[Red]($#,##0.00)
+            </summary>
+        </member>
+        <member name="F:ExcelIO.Framework.CellDataType.Percentage1">
+            <summary>
+            0%
+            </summary>
+        </member>
+        <member name="F:ExcelIO.Framework.CellDataType.Percentage2">
+            <summary>
+            0.00%
+            </summary>
+        </member>
+        <member name="F:ExcelIO.Framework.CellDataType.Scientific1">
+            <summary>
+            0.00E+00
+            </summary>
+        </member>
+        <member name="F:ExcelIO.Framework.CellDataType.Fraction1">
+            <summary>
+            # ?/?
+            </summary>
+        </member>
+        <member name="F:ExcelIO.Framework.CellDataType.Fraction2">
+            <summary>
+            # ??/??
+            </summary>
+        </member>
+        <member name="F:ExcelIO.Framework.CellDataType.Date1">
+            <summary>
+            m/d/yyyy
+            </summary>
+        </member>
+        <member name="F:ExcelIO.Framework.CellDataType.Date2">
+            <summary>
+            d-mmm-yy
+            </summary>
+        </member>
+        <member name="F:ExcelIO.Framework.CellDataType.Date3">
+            <summary>
+            d-mmm
+            </summary>
+        </member>
+        <member name="F:ExcelIO.Framework.CellDataType.Date4">
+            <summary>
+            mmm-yy
+            </summary>
+        </member>
+        <member name="F:ExcelIO.Framework.CellDataType.Time1">
+            <summary>
+            h:mm AM/PM
+            </summary>
+        </member>
+        <member name="F:ExcelIO.Framework.CellDataType.Time2">
+            <summary>
+            h:mm:ss AM/PM
+            </summary>
+        </member>
+        <member name="F:ExcelIO.Framework.CellDataType.Time3">
+            <summary>
+            h:mm
+            </summary>
+        </member>
+        <member name="F:ExcelIO.Framework.CellDataType.Time4">
+            <summary>
+            h:mm:ss
+            </summary>
+        </member>
+        <member name="F:ExcelIO.Framework.CellDataType.Time5">
+            <summary>
+            m/d/yyyy h:mm
+            </summary>
+        </member>
+        <member name="F:ExcelIO.Framework.CellDataType.Accounting1">
+            <summary>
+            #,##0_);(#,##0)
+            </summary>
+        </member>
+        <member name="F:ExcelIO.Framework.CellDataType.Accounting2">
+            <summary>
+            #,##0_);[Red](#,##0)
+            </summary>
+        </member>
+        <member name="F:ExcelIO.Framework.CellDataType.Accounting3">
+            <summary>
+            #,##0.00_);(#,##0.00)
+            </summary>
+        </member>
+        <member name="F:ExcelIO.Framework.CellDataType.Accounting4">
+            <summary>
+            #,##0.00_);[Red](#,##0.00)
+            </summary>
+        </member>
+        <member name="F:ExcelIO.Framework.CellDataType.Accounting5">
+            <summary>
+            _(* #,##0_);_(* (#,##0);_(* "-"_);_(@_)
+            </summary>
+        </member>
+        <member name="F:ExcelIO.Framework.CellDataType.Currency5">
+            <summary>
+            _($* #,##0_);_($* (#,##0);_($* "-"_);_(@_)
+            </summary>
+        </member>
+        <member name="F:ExcelIO.Framework.CellDataType.Accounting6">
+            <summary>
+            _(* #,##0.00_);_(* (#,##0.00);_(* "-"??_);_(@_)
+            </summary>
+        </member>
+        <member name="F:ExcelIO.Framework.CellDataType.Currency6">
+            <summary>
+            _($* #,##0.00_);_($* (#,##0.00);_($* "-"??_);_(@_)
+            </summary>
+        </member>
+        <member name="F:ExcelIO.Framework.CellDataType.Time6">
+            <summary>
+            mm:ss
+            </summary>
+        </member>
+        <member name="F:ExcelIO.Framework.CellDataType.Time7">
+            <summary>
+            [h]:mm:ss
+            </summary>
+        </member>
+        <member name="F:ExcelIO.Framework.CellDataType.Time8">
+            <summary>
+            mm:ss.0
+            </summary>
+        </member>
+        <member name="F:ExcelIO.Framework.CellDataType.Scientific2">
+            <summary>
+            ##0.0E+0
+            </summary>
+        </member>
+        <member name="F:ExcelIO.Framework.CellDataType.Text">
+            <summary>
+            @
+            </summary>
+        </member>
+        <member name="P:ExcelIO.Framework.CellProperty.wrapText">
+            <summary>
+            文本自动转行
+            </summary>
+        </member>
+        <member name="P:ExcelIO.Framework.CellProperty.isBold">
+            <summary>
+            是否加粗显示文字
+            </summary>
+        </member>
+        <member name="M:ExcelIO.Framework.IExcelDataIO.ToExcelWithProperty(ExcelIO.Framework.ExcelSheet,System.String)">
+            <summary>
+            Set the relevant properties before exporting the data to Excel
+            </summary>
+            <param name="excelSheet">Set the ordinal number of the column header row (starting from 0 by default), the column header text mapping relationship, the column header style, and other related properties</param>
+            <param name="excelPath">Set the physical path to Excel saved [nullable]</param>
+        </member>
+        <member name="M:ExcelIO.Framework.IExcelDataIO.ToExcelWithProperty(ExcelIO.Framework.ExcelSheet,System.String,System.Boolean)">
+            <summary>
+            Set the relevant properties before exporting the data to Excel
+            </summary>
+            <param name="excelSheet">Set the ordinal number of the column header row (starting from 0 by default), the column header text mapping relationship, the column header style, and other related properties</param>
+            <param name="excelPath">Set the physical path to Excel saved [nullable]</param>
+            <param name="appendToLastSheet">Whether to add 'WorkSheet' after the last 'WorkSheet', default is No (false)</param>
+        </member>
+        <member name="M:ExcelIO.Framework.IExcelDataIO.ToExcelWithData(ExcelIO.Framework.ExcelRowChildren)">
+            <summary>
+            Integrate formal data into Excel
+            </summary>
+            <param name="excelRowChildren">Insert formal data with column header mappings into Excel</param>
+        </member>
+        <member name="M:ExcelIO.Framework.IExcelDataIO.ToExcelWithExcelRowChildren">
+            <summary>
+            Gets the assignment object with a column header mapping
+            </summary>
+            <returns>An assignment object with a column header mapping</returns>
+        </member>
+        <member name="M:ExcelIO.Framework.IExcelDataIO.ToExcelGetBody">
+            <summary>
+            Converts Excel to a byte array
+            </summary>
+            <returns>A byte array</returns>
+        </member>
+        <member name="M:ExcelIO.Framework.IExcelDataIO.ToExcelGetBody(System.String)">
+            <summary>
+            Gets a byte array based on the specified Excel physical path
+            </summary>
+            <param name="excelPath">The physical path to Excel</param>
+            <returns>A byte array</returns>
+        </member>
+        <member name="M:ExcelIO.Framework.IExcelDataIO.FromExcel``1(ExcelIO.Framework.ExcelSheet,System.String)">
+            <summary>
+            Gets Excel data based on the properties you set
+            </summary>
+            <typeparam name="T">The element object type of the List collection</typeparam>
+            <param name="excelSheet">Provides information such as WorkSheet and column headers for Excel</param>
+            <param name="excelPath">The physical path to Excel</param>
+            <returns>Returns the List collection of data entities</returns>
+        </member>
+        <member name="M:ExcelIO.Framework.IExcelDataIO.FromExcel(ExcelIO.Framework.ExcelSheet,System.String)">
+            <summary>
+            Gets Excel data based on the properties you set
+            </summary>
+            <param name="excelSheet">Provides information such as WorkSheet and column headers for Excel</param>
+            <param name="excelPath">The physical path to Excel</param>
+            <returns>Returns a DataTable data collection</returns>
+        </member>
+        <member name="M:ExcelIO.Framework.IExcelDataIO.FromExcel(ExcelIO.Framework.ExcelSheet,System.String,System.Boolean)">
+            <summary>
+            Gets Excel data based on the properties you set
+            </summary>
+            <param name="excelSheet">Provides information such as WorkSheet and column headers for Excel</param>
+            <param name="excelPath">The physical path to Excel</param>
+            <param name="dataTableHeaderOfExcelHeader">Whether to set Excel's column header file to the column header name of DataTable, the default is No</param>
+            <returns>Returns a DataTable data collection</returns>
+        </member>
+        <member name="M:ExcelIO.Framework.IExcelDataIO.FromExcel(ExcelIO.Framework.ExcelSheet,System.String,System.Action{System.Data.DataRow})">
+            <summary>
+            Gets Excel data based on the properties you set
+            </summary>
+            <param name="excelSheet">Provides information such as WorkSheet and column headers for Excel</param>
+            <param name="excelPath">The physical path to Excel</param>
+            <param name="action">Provide an Action parameter that receives the DataRow data row</param>
+        </member>
+        <member name="M:ExcelIO.Framework.IExcelDataIO.FromExcel``1(ExcelIO.Framework.ExcelSheet,System.String,System.Action{``0})">
+            <summary>
+            Gets Excel data based on the properties you set
+            </summary>
+            <typeparam name="T">The type of data entity</typeparam>
+            <param name="excelSheet">Provides information such as WorkSheet and column headers for Excel</param>
+            <param name="excelPath">The physical path to Excel</param>
+            <param name="action">Provides an Action parameter for a data behavior data entity type</param>
+        </member>
+        <member name="M:ExcelIO.Framework.IExcelDataIO.GetRowData(System.String,System.Int32)">
+            <summary>
+            Gets the row data for the specified data row location based on the provided 'Worksheet' position or name information
+            </summary>
+            <param name="excelPath">The physical path to Excel</param>
+            <param name="rowIndex">The sequence number of the data row, which starts at 0 by default</param>
+            <returns>Returns an array collection of row data</returns>
+        </member>
+        <member name="M:ExcelIO.Framework.IExcelDataIO.GetRowData(ExcelIO.Framework.ExcelSheet,System.String,System.Int32)">
+            <summary>
+            Gets the row data for the specified data row location based on the provided 'Worksheet' position or name information
+            </summary>
+            <param name="excelSheet">Provide the location or name of 'Worksheet'</param>
+            <param name="excelPath">The physical path to Excel</param>
+            <param name="rowIndex">The sequence number of the data row, which starts at 0 by default</param>
+            <returns>Returns an array collection of row data</returns>
+        </member>
+        <member name="M:ExcelIO.Framework.IExcelDataIO.GetRowDataKayValue(ExcelIO.Framework.ExcelSheet,System.String,System.Int32)">
+            <summary>
+            Gets the row data of key-value for the specified data row location based on the provided 'Worksheet' position or name information
+            </summary>
+            <param name="excelSheet">Provide the location or name of 'Worksheet', and provide the mapping relationship between column headers and field names (if not provided, the column header text will be used as the key)</param>
+            <param name="excelPath">The physical path to Excel</param>
+            <param name="rowIndex">The sequence number of the data row, which starts at 0 by default</param>
+            <returns>Returns row data combined as key-value pairs</returns>
+        </member>
+        <member name="M:ExcelIO.Framework.IExcelDataIO.GetWorksheetNames(System.String)">
+            <summary>
+             Get all the 'Worksheet' names in 'Workbook'
+            </summary>
+            <param name="excelPath">The physical path to Excel</param>
+            <returns></returns>
+        </member>
+    </members>
+</doc>

@@ -6,7 +6,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="ExcelIO.NetCore" Version="1.0.0.6" />
+    <PackageReference Include="ExcelIO.NetCore" Version="1.0.0.8" />
   </ItemGroup>
 
 </Project>

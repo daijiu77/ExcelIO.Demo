@@ -1,5 +1,6 @@
 using ExcelIO.Net;
 using System;
+using System.Collections.Generic;
 using System.Data;
 using System.Diagnostics;
 
@@ -63,7 +64,7 @@ namespace ExcelIO.Demo.Net
 
                 string fPath = "D:\\abc.xlsx";
                 //把列头关系、及属性信息设置到 Excel
-                excelDataIO.ToExcelWithProperty(excelSheet, fPath);
+                excelDataIO.ToExcelWithProperty(excelSheet: excelSheet, fPath);
 
                 //获取 DataTable 数据
                 DataTable dt = GetDbSource();
@@ -108,6 +109,19 @@ namespace ExcelIO.Demo.Net
                     excelSheet.AddMapping(kv[1].Trim(), kv[0].Trim());
                 }
 
+                //获取指定行序号位置行数据键值对
+                Dictionary<string, string> rowKV = excelDataIO.GetRowDataKayValue(excelSheet: excelSheet, fPath, 2);
+
+                //获取指定行位置的行数据数组集合
+                string[] rows = excelDataIO.GetRowData(fPath, 2);
+
+                excelSheet.SheetName = "Sheet1";
+                //获取指定 SheetName(也可通过指定 SheetIndex)和指定行序号位置的行数据数组合集合
+                string[] rowDatas = excelDataIO.GetRowData(excelSheet: excelSheet, fPath, 2);
+
+                //获取所有 WorkSheet 的名称
+                string[] sheetNames = excelDataIO.GetWorksheetNames(fPath);
+
                 //获取 Excel 的字节数据
                 byte[] data = excelDataIO.ToExcelGetBody(fPath);
 
@@ -126,7 +140,7 @@ namespace ExcelIO.Demo.Net
                 //});
 
                 //大数据量的情况，可采用数据实体逐行获取数据
-                excelDataIO.FromExcel<DataObj>(excelSheet, fPath, dataObj =>
+                excelDataIO.FromExcel<DataObj>(excelSheet: excelSheet, fPath, dataObj =>
                 {
                     Trace.WriteLine(dataObj.Name);
                 });
