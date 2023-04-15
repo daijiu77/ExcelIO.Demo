@@ -11,7 +11,7 @@
         </member>
         <member name="F:ExcelIO.Framework.CellDataType.Number">
             <summary>
-            0
+             0
             </summary>
         </member>
         <member name="F:ExcelIO.Framework.CellDataType.Decimal2">
